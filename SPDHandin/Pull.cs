@@ -17,12 +17,13 @@ public class Pull
 
     public static async Task UpdateFile()
     {
-        //await Download();
-        //await BS64ToFile();
-        //await UnGZ();
-        //await ReadPLT();
+        Directory.CreateDirectory("./update");
+        await Download();
+        await BS64ToFile();
+        await UnGZ();
+        await ReadPLT();
         //await ReadPLT("this-collection.rkt");
-        await ReadPLT("info.rkt");
+        //await ReadPLT("info.rkt");
     }
     
     private static async Task Download()
