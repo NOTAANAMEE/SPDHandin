@@ -5,7 +5,7 @@ await Pull.UpdateFile();      //UBC code
 Handin.HandinFile("<file path here>", "<your cwl here>", "<your password here>");//commit the file
 ```
 # Used project:
-[octokit.net https://github.com/octokit/octokit.net] Github MIT License
+[octokit.net](https://github.com/octokit/octokit.net) Github MIT License
 
 
 
